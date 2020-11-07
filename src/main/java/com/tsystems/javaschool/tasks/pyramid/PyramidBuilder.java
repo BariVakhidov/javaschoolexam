@@ -1,10 +1,9 @@
 package com.tsystems.javaschool.tasks.pyramid;
 
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
+
 
 public class PyramidBuilder {
 
@@ -18,8 +17,6 @@ public class PyramidBuilder {
      */
     public int[][] buildPyramid(List<Integer> inputNumbers) {
         try {
-
-
             if (inputNumbers.contains(null)) {
                 throw new CannotBuildPyramidException();
             }
