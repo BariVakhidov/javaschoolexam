@@ -36,7 +36,5 @@ public class Subsequence {
            return true;
         } else return false;
 
-
-
     }
 }
